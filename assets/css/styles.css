@@ -1,8 +1,8 @@
 .background{
 	z-index: 1;
 	position: absolute;
-	top: 0px;
-	left: 0px;
+	top: 30px;
+	left: 30px;
 	height: 160px;
 	width: 272px;
 	background-color: #979797;
@@ -13,8 +13,8 @@
 .mount{
 	z-index: 2;
 	position: absolute;
-	top: 0px;
-	left: 0px;
+	top: 30px;
+	left: 30px;
 	height: 160px;
 	width: 272px;
 	background-image: url("../images/parallax-mountain-montain-far.png");
@@ -23,8 +23,8 @@
 .mounts{
 	z-index: 3;
 	position: absolute;
-	top: 0px;
-	left: 0px;
+	top: 30px;
+	left: 30px;
 	height: 160px;
 	width: 272px;
 	background-image: url("../images/parallax-mountain-mountains.png");
@@ -33,8 +33,8 @@
 .forest-far{
 	z-index: 4;
 	position: absolute;
-	top: 0px;
-	left: 0px;
+	top: 30px;
+	left: 30px;
 	height: 160px;
 	width: 272px;
 	background-image: url("../images/parallax-mountain-trees.png");
@@ -43,8 +43,8 @@
 .forest{
 	z-index: 5;
 	position: absolute;
-	top: 0px;
-	left: 0px;
+	top: 30px;
+	left: 30px;
 	height: 160px;
 	width: 272px;
 	background-image: url("../images/parallax-mountain-foreground-trees.png");
@@ -52,10 +52,12 @@
 
 .frame{
 	z-index: 6;
-	position: absolute;
-	top: 0px;
-	left: 0px;
+	position:relative;
+	top: -5px;
+	left: -5px;
 	height: 150px;
 	width: 262px;
 	border: 30px solid #000000;
+
+
 }
