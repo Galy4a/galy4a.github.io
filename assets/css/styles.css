@@ -1,54 +1,61 @@
-.menu1, .menu2, .menu3{
+.background{
+	z-index: 1;
 	position: absolute;
-	top: 10px;
-	left: 10px;
-	height: 40px;	
-	display: inline-block;	
-}
-
-.menu2{
-	top: 80px;
-}
-
-.menu3{
-	top: 150px;
-}
-
-.button1, .button2, .button3{
-	position: relative;
-	height: 100%;
-	width: 150px;
-	float: left;	
-	text-align: center;
-	line-height: 40px;
-	background-color: #EBEBEB;
-	border-bottom: 1px solid #505050;
-	color: #505050;
-	font-family: "Verdana";
-	font-weight: bold;
-	cursor: pointer;
-}
-
-.button1:hover, .button2:hover, .button3:hover{
-	color: #FF8A00;
-}
-
-.line1, .line2, .line3{
-	position: relative;
-	height: 2px;
-	width: 150px;
-	top: 39px;
-	background-color: #FF8A00;
-}
-
-.line2{
-	top: -1px;
-	width: 2px;
-	left: 74px;
-	opacity: 0;
-}
-
-.line3{
 	top: 0px;
-	height: 1px;	
+	left: 0px;
+	height: 160px;
+	width: 272px;
+	background-color: #979797;
+	background-image: url("../images/parallax-mountain-bg.png");
+	background-size: 100%;
+}
+
+.mount{
+	z-index: 2;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	height: 160px;
+	width: 272px;
+	background-image: url("../images/parallax-mountain-montain-far.png");
+}
+
+.mounts{
+	z-index: 3;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	height: 160px;
+	width: 272px;
+	background-image: url("../images/parallax-mountain-mountains.png");
+}
+
+.forest-far{
+	z-index: 4;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	height: 160px;
+	width: 272px;
+	background-image: url("../images/parallax-mountain-trees.png");
+}
+
+.forest{
+	z-index: 5;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	height: 160px;
+	width: 272px;
+	background-image: url("../images/parallax-mountain-foreground-trees.png");
+}
+
+.frame{
+	z-index: 6;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	height: 150px;
+	width: 262px;
+	border: 30px solid #000000;
 }
