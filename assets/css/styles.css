@@ -1,8 +1,8 @@
 .background{
 	z-index: 1;
 	position: absolute;
-	top: 0px;
-	left: 0px;
+	top: 30px;
+	left: 30px;
 	height: 160px;
 	width: 272px;
 	background-color: #979797;
